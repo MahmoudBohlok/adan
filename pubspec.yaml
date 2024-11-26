@@ -1,0 +1,47 @@
+name: task_app
+description: "A new Flutter project."
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_lints: ^4.0.0
+  alarm: ^4.0.12
+  flutter_screenutil: ^5.9.3
+  get: ^4.6.6
+  audioplayers: ^6.1.0
+  geolocator: ^13.0.2
+  get_it: ^8.0.2
+  internet_connection_checker_plus: ^2.5.1
+  bloc: ^8.1.4
+  introduction_screen: ^3.1.14
+  either_dart: ^1.0.0
+  dio: ^5.5.0+1
+  flutter_bloc: ^8.1.6
+  shared_preferences: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/adhan.mp3
+
+
